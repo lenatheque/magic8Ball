@@ -1,15 +1,21 @@
 body {
     font-family: "Montserrat", sans-serif;
     color: #454545;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: #f8f8f8;
-    background-image: url('bkgd2.png');
+    /* background-image: url('bkgd2.png'); */
+}
+
+
+#eightball {
+    display:block;
+    margin: 0 auto;
 }
 
 .page {
-    width: 80%;
-    max-width: 960px;
+    /* width: 80%; */
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,11 +28,11 @@ body {
 
 .answer {
     position: absolute;
-    width: 14%;
-    top: 50%;
-    left: 50%;
-    margin-top: -60px;
-    margin-left: -65px;
+    width: 8%;
+    top: 38%;
+    left: 48%;
+    /* bottom: 50%;
+    right: 50%; */
     font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
     color: #222;
     text-transform: uppercase;
