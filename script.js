@@ -33,13 +33,12 @@ magic8ball.listOfAnswers = ["Yes", "No", "Maybe", "Ask again later", "In your dr
 setTimeout(function() {
 //show prompt
 
-      var question = prompt("Ask a yes or no question")
+      var question = prompt("Ask a yes or no question");
 
-           magic8ball.askQuestion(question)
+           magic8ball.askQuestion(question);
 
        }, 500);
   
-  }
+  };
         $("#questionButton").click(onClick);
   
-});
